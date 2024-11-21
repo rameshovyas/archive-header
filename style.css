@@ -19,6 +19,12 @@ p {
 .taxonomy-details-container {
     width: 70%;
     margin: 1rem auto 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.taxonomy-details-container .taxonomy-header .taxonomy-breadcrumbs{
+    margin-left: .25rem;
 }
 
 /* Responsive */
